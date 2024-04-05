@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.container{
+    max-width: 500px;
+    margin: 0 auto;
+    border: 2px solid black;
+    text-align: center;
+    padding: 0 25px;
+    
+}
+
+.inputItem{
+    margin: 10px auto;
+    align-items: center;
+    display: flex;
+}
+
+.addItem {
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 10px 15px;
+    flex: 1;
+}
+.addButton{
+    font-size: 1.5rem;
+    border: 1px solid black;
+    padding: 4px 8px;
+    margin-left: 5px;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+    padding: 0px 10px;
+    border-radius: 3px;
+    margin-left: -30px;
+    margin-top: 5px;
+}
+
+.paragraph {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.checkmark, .edit, .delete{
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+.editInput{
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin: 5px 0;
+    flex: 1;
+}
